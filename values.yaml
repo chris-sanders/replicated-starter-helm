@@ -47,7 +47,7 @@ persistence:
     type: persistentVolumeClaim
     persistentVolumeClaim:
       spec:
-        storageClassName: default
+        storageClassName: fake-name
         accessModes:
           - ReadWriteOnce
         resources:
