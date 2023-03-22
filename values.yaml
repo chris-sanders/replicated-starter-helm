@@ -43,7 +43,7 @@ ingresses:
 
 persistence:
   vaultwarden:
-    enabled: true
+    enabled: false
     type: persistentVolumeClaim
     persistentVolumeClaim:
       spec:
