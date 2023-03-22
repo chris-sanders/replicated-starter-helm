@@ -2,4 +2,4 @@
 remote: origin
 target-branch: "library-chart-workflow"
 chart-dirs:
-  - "."
+  - "./"
