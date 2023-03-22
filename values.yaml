@@ -6,7 +6,7 @@ apps:
   vaultwarden:
     enabled: true
     type: deployment
-    replicas: 1
+    replicas: 2
     containers:
       vaultwarden: 
         image:
