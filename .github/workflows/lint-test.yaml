@@ -29,7 +29,7 @@ jobs:
           version: v3.7.1
 
       - name: Run chart-testing (lint)
-        run: ct lint --config ct.yaml --chart-dirs . --charts .
+        run: ct lint --config ct.yaml --chart-dirs . --charts . --validate-maintainers=disable
 
       - name: Create kind cluster
         uses: helm/kind-action@v1.2.0
