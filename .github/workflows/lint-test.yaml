@@ -33,6 +33,8 @@ jobs:
         run: |
           # TODO: Change this branch when we merge to main
           cd $GITHUB_WORKSPACE
+          echo "0: $0"
+          echo "pwd: $(pwd)"
           changed=$(ct list-changed --config ct.yaml --target-branch replicated-library-chart --chart-dirs $GITHUB_WORKSPACE)
           if [[ -n "$changed" ]]; then
             echo "::set-output name=changed::true"
