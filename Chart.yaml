@@ -10,3 +10,5 @@ dependencies:
 home: https://github.com/replicatedhq/replicated-starter-helm/charts/tree/main/
 icon: https://sesoodan.sirv.com/bitwarden_rs.png
 kubeVersion: '>=1.16.0-0'
+maintainers:
+  - name: Replicated Reliability Engineering
