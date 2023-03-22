@@ -1,7 +1,5 @@
 # See https://github.com/helm/chart-testing#configuration
 remote: origin
-target-branch: 
-  - library-chart-workflow
-  - replicated-library-chart
+target-branch: "library-chart-workflow"
 chart-dirs:
   - .
